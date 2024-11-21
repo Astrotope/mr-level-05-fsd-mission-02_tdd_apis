@@ -1,5 +1,4 @@
 function createUser(user) {
-  // Implementation to be added
-  return null;
+  return user;
 }
 module.exports = { createUser };
