@@ -1,5 +1,9 @@
 describe('User API Tests', () => {
-  test.todo('should create a new user');
+  test('should create a new user', () => {
+    const newUser = { id: 1, name: 'John Doe' };
+    const result = createUser(newUser); // Function to be implemented
+    expect(result).toEqual(newUser);
+  });
   test.todo('should fetch a user by ID');
   test.todo('should delete a user');
 });
